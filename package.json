@@ -1,0 +1,22 @@
+{
+  "name": "nightwatch",
+  "version": "0.0.9",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chromedriver": "^2.33.2",
+    "iedriver": "^3.14.1",
+    "nightwatch": "^0.9.9",
+    "nightwatch-html-reporter": "^2.0.6",
+    "selenium-server": "^3.8.1"
+  },
+  "dependencies": {
+    "chrome-driver-standalone": "^2.37.0",
+    "geckodriver": "^1.16.2",
+    "selenium-server-standalone-jar": "^3.141.5"
+  }
+}
