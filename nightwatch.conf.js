@@ -9,6 +9,9 @@ const config = {
   "src_folders": ["test"],
   "output_folder": "./reports",
   "reporter": 'globals.reporter',
+  'custom_commands_path'  : '',
+  'custom_assertions_path': '',
+  'page_objects_path'     : '',
   "globals_path": GLOBALS,
   "selenium": {
     "start_process": true,

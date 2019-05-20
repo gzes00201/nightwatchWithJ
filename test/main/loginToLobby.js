@@ -4,7 +4,7 @@ module.exports = {
         browser
         .url('http://google.com')
         .waitForElementPresent('#fbar > div > div > div > span')
-        .waitForElementPresent('.a')
+        .waitForElementPresent('.a',1000,'not found')
         .end()
     }
 }
