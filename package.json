@@ -18,5 +18,6 @@
     "chrome-driver-standalone": "^2.37.0",
     "geckodriver": "^1.16.2",
     "selenium-server-standalone-jar": "^3.141.5"
-  }
+  },
+  "private": true
 }
