@@ -11,7 +11,7 @@ const config = {
   "reporter": 'globals.reporter',
   'custom_commands_path'  : '',
   'custom_assertions_path': '',
-  'page_objects_path'     : '',
+  "page_objects_path": './page_objects',
   "globals_path": GLOBALS,
   "selenium": {
     "start_process": true,
