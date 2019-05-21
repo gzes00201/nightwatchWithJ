@@ -8,7 +8,7 @@ module.exports = {
  
         loginPage
             .navigate()
-            .waitForElementPresent('@user', '帳號欄位ok')
+            .waitForElementPresent('@1user', '帳號欄位ok')
             .waitForElementPresent('@password', '密碼欄位ok')
             .waitForElementPresent('@login_btn', '登入按鈕ok')
             .login()
