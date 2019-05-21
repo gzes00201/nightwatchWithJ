@@ -12,7 +12,7 @@
     "iedriver": "^3.14.1",
     "nightwatch": "^1.1.9",
     "nightwatch-html-reporter": "^2.0.6",
-    "selenium-server": "^3.8.1"
+    "selenium-server": "^3.141.59"
   },
   "dependencies": {
     "chrome-driver-standalone": "^2.37.0",
