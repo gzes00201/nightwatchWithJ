@@ -9,7 +9,7 @@ const config = {
   "src_folders": ["test"],
   "output_folder": "./reports",
   "reporter": 'globals.reporter',
-  'custom_commands_path'  : '',
+  "custom_commands_path": './custom_commands',
   'custom_assertions_path': '',
   "page_objects_path": './page_objects',
   "globals_path": GLOBALS,
