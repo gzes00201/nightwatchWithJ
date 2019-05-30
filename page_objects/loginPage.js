@@ -1,12 +1,3 @@
-const loginCommands = {
-    submit: function() {
-
-        return this.setValue('@user', 'zzz')
-                    .setValue('@password', 'zzz')
-                    .click('@login_btn')
-    }
-}
-
 module.exports = {
     url: function () {
         return this.api.launchUrl;
@@ -27,8 +18,5 @@ module.exports = {
         login_to_lobby: {
             selector: '#login_ianus'
         }
-        
     },
-    commands: [loginCommands],
-    
-  };
+};

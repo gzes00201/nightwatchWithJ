@@ -11,13 +11,13 @@
     "chromedriver": "^2.33.2",
     "iedriver": "^3.14.1",
     "nightwatch": "^1.1.9",
-    "nightwatch-html-reporter": "^2.0.6",
-    "selenium-server": "^3.141.59"
+    "nightwatch-html-reporter": "^2.0.6"
   },
   "dependencies": {
     "chrome-driver-standalone": "^2.37.0",
     "geckodriver": "^1.16.2",
-    "selenium-server-standalone-jar": "^3.141.5"
+    "selenium": "^2.20.0",
+    "selenium-server": "^3.141.5"
   },
   "private": true
 }

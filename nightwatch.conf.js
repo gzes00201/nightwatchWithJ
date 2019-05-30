@@ -26,7 +26,7 @@ const config = {
   },
   "live_output": true,
   "test_workers" : {
-    "enabled": true,
+    "enabled": false,
     "workers": "auto"
   },
   "test_settings": {
