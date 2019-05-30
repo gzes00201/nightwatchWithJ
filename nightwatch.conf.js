@@ -18,7 +18,7 @@ const config = {
     "server_path": seleniumServer.path,
     "log_path": "",
     "host": "127.0.0.1",
-    "port": 4443,
+    "port": 4444,
     "cli_args": {
       "webdriver.chrome.driver": chromedriver.path,
       "webdriver.firefox.driver":firefoxdriver.path
