@@ -14,7 +14,7 @@ const config = {
   "page_objects_path": './page_objects',
   "globals_path": GLOBALS,
   "selenium": {
-    "start_process": true,
+    "start_process": false,
     "server_path": seleniumServer.path,
     "log_path": "",
     "host": "127.0.0.1",
@@ -43,7 +43,11 @@ const config = {
         "desiredCapabilities" : {
             "browserName" : "chrome",
             "javascriptEnabled" : true,
-            "acceptSslCerts" : true,
+            "javascriptEnabled": true,
+            "acceptSslCerts": true,
+            "chromeOptions" : {
+              "args" : ["headless", "no-sandbox", "disable-gpu"]
+            }
           }
       },
     "firefox": {
