@@ -15,7 +15,7 @@ const config = {
   "globals_path": GLOBALS,
   "selenium": {
     "start_process": true,
-    "server_path": "./node_modules/selenium-server/lib/runner/selenium-server-standalone-2.46.0.jar",
+    "server_path": "./node_modules/selenium-server/lib/runner/selenium-server-standalone-3.141.59.jar",
     "log_path": "",
     "host": "127.0.0.1",
     "port": 4447,
