@@ -18,7 +18,7 @@ const config = {
     "server_path": "./node_modules/selenium-server/lib/runner/selenium-server-standalone-3.141.59.jar",
     "log_path": "",
     "host": "127.0.0.1",
-    "port": 4447,
+    "port": 4444,
     "cli_args": {
       "webdriver.chrome.driver": "./bin/chromedriver",
       "webdriver.firefox.driver":"./bin/geckodriver"
