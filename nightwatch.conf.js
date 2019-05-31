@@ -2,8 +2,8 @@ const PKG = require('./package.json');
 const GLOBALS = './globals.js';
 const url = require('./env/url.js');
 const seleniumServer = require('selenium-server');
-const chromedriver = require('chromedriver');
-const firefoxdriver = require('geckodriver');
+// const chromedriver = require('.bin/chromedriver');
+// const firefoxdriver = require('./bin/');
 
 const config = {
   "src_folders": ["test"],
@@ -18,10 +18,10 @@ const config = {
     "server_path": seleniumServer.path,
     "log_path": "",
     "host": "127.0.0.1",
-    "port": 4444,
+    "port": 4447,
     "cli_args": {
-      "webdriver.chrome.driver": chromedriver.path,
-      "webdriver.firefox.driver":firefoxdriver.path
+      "webdriver.chrome.driver": "./bin/chromedriver",
+      "webdriver.firefox.driver":"./bin/geckodriver"
     }
   },
   "live_output": true,
@@ -32,7 +32,7 @@ const config = {
   "test_settings": {
     "default": {
         "launch_url": 'https://ahab.inlottodev.com/',
-        "selenium_port": 4444,
+        "selenium_port": 4447,
         "selenium_host": "localhost",
         "silent": true,
         "globals": {
