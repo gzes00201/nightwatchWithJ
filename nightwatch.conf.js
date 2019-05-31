@@ -33,6 +33,9 @@ const config = {
     "default": {
         "launch_url": 'https://ahab.inlottodev.com/',
         "selenium_port": 4444,
+        "selenium" : {
+          "start_process" : true
+        }
         "selenium_host": "localhost",
         "silent": true,
         "globals": {
