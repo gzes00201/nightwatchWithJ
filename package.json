@@ -1,10 +1,11 @@
 {
   "name": "nightwatch",
-  "version": "1.1.9",
+  "version": "1.0.19",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch --reporter ./globals.js"
+    "test": "nightwatch --reporter ./globals.js",
+    "ff": "nightwatch --env firefox"
   },
   "license": "MIT",
   "devDependencies": {
