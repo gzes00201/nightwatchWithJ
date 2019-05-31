@@ -35,7 +35,7 @@ const config = {
         "selenium_port": 4444,
         "selenium" : {
           "start_process" : true
-        }
+        },
         "selenium_host": "localhost",
         "silent": true,
         "globals": {
