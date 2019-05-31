@@ -14,7 +14,7 @@ const config = {
   "page_objects_path": './page_objects',
   "globals_path": GLOBALS,
   "selenium": {
-    "start_process": false,
+    "start_process": true,
     "server_path": seleniumServer.path,
     "log_path": "",
     "host": "127.0.0.1",
