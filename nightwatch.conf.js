@@ -36,8 +36,12 @@ const config = {
         "selenium" : {
           "start_process" : true
         },
-        "selenium_host": "localhost",
+        "selenium_host": "127.0.0.1",
         "silent": true,
+        "screenshots": {
+          "enabled": false,
+          "path": ""
+        },
         "globals": {
           "waitForConditionTimeout": 10000,
           "url": url.index,
