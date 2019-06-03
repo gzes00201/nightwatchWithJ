@@ -17,7 +17,7 @@ const config = {
     "start_process": false,
     "server_path": seleniumServer.path,
     "log_path": "",
-    "host": "127.0.0.1",
+    "host": "172.19.0.8",
     "port": 4444,
     "cli_args": {
       "webdriver.chrome.driver": "./bin/chromedriver",
@@ -36,7 +36,7 @@ const config = {
         "selenium" : {
           "start_process" : true
         },
-        "selenium_host": "127.0.0.1",
+        "selenium_host": "172.19.0.8",
         "silent": true,
         "screenshots": {
           "enabled": false,
